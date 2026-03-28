@@ -41,6 +41,9 @@ htmlcov/
 .mypy_cache/
 .ruff_cache/
 
+# Local data (conversation history)
+data/
+
 # Claude Code
 .claude/
 
