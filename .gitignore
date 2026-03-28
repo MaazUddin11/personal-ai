@@ -41,6 +41,12 @@ htmlcov/
 .mypy_cache/
 .ruff_cache/
 
+# Local data (conversation history)
+data/
+
+# Claude Code
+.claude/
+
 # OS
 .DS_Store
 Thumbs.db
