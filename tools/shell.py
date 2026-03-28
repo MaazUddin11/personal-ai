@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 from typing import Optional
 
-ALLOWED_DIR = Path("/Users/clawagent/agent-workspace").resolve()
+ALLOWED_DIR = Path(os.getenv("AGENT_WORKSPACE", os.path.join(os.path.dirname(os.path.dirname(__file__)), "workspace"))).resolve()
 
 BLOCKED_COMMANDS = {
     "rm",
